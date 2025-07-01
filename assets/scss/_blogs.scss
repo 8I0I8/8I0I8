@@ -1,26 +1,73 @@
 /* --------------- Blogs --------------- */
 
-.blog-sa{
+.blog-ca{
+
+    .row-bord{
+        position: relative;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            border-left: 1px solid rgba(0,0,0,.1);
+        }
+    }
+
+    .mitem{
+
+        .info{
+
+            .author-img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            .author-info,
+            .date{
+                font-size: 13px;
+                text-transform: uppercase;
+
+                span{
+                    display: block;
+                    line-height: 22px;
+                }
+            }
+        }
+
+        .img{
+            border-radius: 15px;
+            height: 285px;
+            overflow: hidden;
+        }
+
+        &:hover{
+            
+            h5{
+                color: $main-color;
+            }
+        }
+    }
 
     .item{
 
-        .img{
-            height: 470px;
-            border-radius: 15px;
+        .date{
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
         }
 
-        .cont{
+        h6{
+            text-wrap: pretty;
+        }
+
+        &:hover{
+            border-color: $main-color;
             
-            .info{
-
-                a{
-                    font-size: 14px;
-                }
-
-                .date{
-                    opacity: .5;
-                    margin-left: 5px;
-                }
+            h6{
+                color: $main-color;
             }
         }
     }
