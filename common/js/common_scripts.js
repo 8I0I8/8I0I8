@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Hubfolio
+    Theme Name: 8I0I8
     Theme URI: http://
     Description: Creative Agency & Portfolio
     Author: Uithemez
